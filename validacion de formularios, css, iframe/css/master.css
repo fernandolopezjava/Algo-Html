@@ -1,0 +1,122 @@
+*{
+    margin: 0 auto;
+}
+.container{
+   width: 100%;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif
+    /*Repasar unidades de medidas: https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/Valores_y_unidades_CSS*/
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.portada{
+    width: 100%;
+}
+.centrar{
+    text-align: center;
+    color: red;
+}
+
+#TodosLosDerechos{
+    color: blue;
+}
+
+.articulos{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    
+}
+
+ul{
+    display: flex;
+    padding: 20px;
+    background-color: aquamarine;
+}
+
+
+/*----- CSS usado en la página de nosotros ------ */
+.submenu{
+    display: flex;
+    padding: 20px;
+    background-color: tomato;
+
+}
+/*------------------------------------------------*/
+ul li{
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 2rem;
+
+}
+
+ul li a:hover{
+    text-decoration: underline;
+}
+
+
+#miH1{
+    text-align: center;
+    color: red;
+}
+
+/*.boton{
+    width: 100px;
+    height: 50px;
+}*/
+
+.formulario{
+    display: flex;
+}
+
+.articulo1, .articulo2{
+    width: 50%;
+}
+
+.form{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+input{
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 20px;  
+ width: 80%; 
+}
+
+button{
+    width: 15%;
+ 
+}
+
+.miH2Bloque{
+    background-color: tomato;
+    color: white;
+}
+
+.miHrefLinea{
+    background-color: blue;
+    color: white;
+
+}
+
+.articulo1{
+    background-image: url('../img/snow.jpg');
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+

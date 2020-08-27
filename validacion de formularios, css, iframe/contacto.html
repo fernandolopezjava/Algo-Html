@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/master.css">
+    <title>HTML - CSS Clase 3</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h1 id="miH1">Contactenos</h1>
+
+        <section class="formulario">
+            <article class="articulo1">
+                <form class="form" action="" method="GET">
+                    <label for="nombre">Nombre</label>
+                    <br>
+                    <input type="text" name="nombre" value="" placeholder="Indique su nombre" required>
+                    <br>
+                    <label for="apellido">Apellido</label>
+                    <br>
+                    <input type="text" name="apellido" value="" placeholder="Indique su apellido" required>
+                    <br>
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" name="email" value="" placeholder="Indique su email">
+                    <br>
+                    <label for="password">Password</label>
+                    <br>
+                    <input type="password" name="password" value="" placeholder="Indique password">
+                    <br>  
+                      
+                    <button type="submit" ><ion-icon name="save-outline"></ion-icon></button>
+                    
+                    <button type="reset" ><ion-icon name="refresh-circle-outline"></ion-icon></button> 
+                    <!--Hoy port hoy se usa mucho es el button, para poder colocar imagnes en los botones-->
+                    <!--<button  type="submit"><img class="boton" src="img/enviar.png" alt="Envio de datos"></button>-->
+                </form>
+            </article>
+            <article class="articulo2">
+                <img class="portada" src="img/bicycle1.jpg" alt="Bicicleta">    
+            </article>
+        </section>
+        <section>
+            <!--Esto es sólo para que vean lo referido a trabaja con elementos en bloque y elelentos en linea. Para mayor informión: https://developer.mozilla.org/es/docs/Web/HTML/Block-level_elements      https://developer.mozilla.org/es/docs/Web/HTML/Elementos_en_l%C3%ADnea
+            -->
+            <h2 class="miH2Bloque">Hola este es un elemento en bloque</h2>
+            <a class="miHrefLinea" href="#">Este es un elemento en linea</a>
+        </section>
+        <!--Esto se los coloque, para que aprendan a trabajar con la incorporación de tablas en sus páginas web: -->
+        <section>
+            <h2>Esto es sólo para que verifiquen lo referido a trabajar con tablas</h2>
+            <table class="centrar">
+            
+                <thead>
+                    <tr>
+                        <th>
+                            DNI
+                        </th>
+                        <th>
+                            Nombre
+                        </th>    
+                        <th>
+                            Apellido
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            12345679
+                        </td>
+                        <td>
+                            Daniel
+                        </td>
+                        <td>
+                            Fuentes
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            87654321
+                        </td>
+                        <td>
+                            Gloria
+                        </td>
+                        <td>
+                            Medina
+                        </td>
+                    </tr>
+    
+                </tbody>
+            </table>
+    
+
+        </section>
+        <footer>
+            <!--Ejemplo de como usar la etiqueta iframe-->
+            <!--Verificar información: https://developer.mozilla.org/es/docs/Web/HTML/Elemento/iframe -->
+            <iframe   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0687157584057!2d-58.3780570849944!3d-34.60242386493619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacc473596c3%3A0x568d6d5f7f1f535d!2sEducaci%C3%B3n%20IT!5e0!3m2!1ses!2sar!4v1585582919955!5m2!1ses!2sar" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/NhWiKZ021Ag" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br>
+            <h2 id="TodosLosDerechos" class="centrar">Todos los derechos reservados: MSc. Ángel Daniel Fuentes</h2>
+            <h2 class="centrar">Visita mis redes sociales: <a href="http://cedavilu.com/"><ion-icon name="logo-web-component"></ion-icon></a> | <a href="https://www.linkedin.com/in/angel-daniel-fuentes-segura-258701141/"><ion-icon name="logo-linkedin"></ion-icon></a>  | <a href="https://adanielf.wordpress.com/"><ion-icon name="logo-wordpress"></ion-icon></a>  | <a href="https://github.com/danielfuentes"><ion-icon name="logo-github"></ion-icon></a> </h2>
+            <h2 class="centrar">Si deseas nos mandas correo: <a href="mailto:cedavilu@gmail.com">cedavilu@gmail.com</a></h2>
+        </footer>
+    </div>
+    <!--Este es el código de JavaScript para lograr incorporar iconos en nuestras paáginas-->
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+</body>
+</html>
