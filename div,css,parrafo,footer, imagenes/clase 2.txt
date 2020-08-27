@@ -1,0 +1,54 @@
+clase 2 : fundamentos de html
+css:
+1)de que forma puedo incorporar estilos a mi pagina con css
+3 formas: en linea: <h2 style="color:nod;"> texto </h2>
+          otorgamiento de forma interna: al principio del body o head
+          se puede colocar un style <style >style
+          otorgamiento de forma externa:link enlace al master css o al
+          archivo css que tengo creado
+tener en cuenta las declaraciones de mis elementos html
+1)cada vez que creo una etiqueta le puedo otorgar un identificador(un
+valor unico)<h3 id="mih3" cbss="subitulo"> se puede crear una clase y
+otorgarsela a cualquier elemento
+2)como debo crear el css para mis etiquetas o elementos
+*h2{color:"red"; (propiedad,valor) }h2
+*#mih3{color:"blue";}h3   //por id
+*.subtitulo{color:"red";} //por clase
+
+estructura de la pagina:<body>
+etiqueta <div> se reserva un area(representaba un cuadro dentro de la pagina)
+esto evoluciono a tags semanticos.
+seo: la utilizacion de motores de busqueda
+encabezado: <header> </header>
+carusel:<section> </section>
+dentro de un header puede haber otros componentes como por ej 
+una section (logo) y nav(menu)
+dentro de una misma seccion puede haber articulos que forman parte de la seccion
+
+responsive: es la capacidad que tiene mi pagina de adaptarse a los distintos disp
+ositivos que el usuario utiilice
+
+src= search
+
+ruta absoluta: colocas la direccion y abre directo
+ruta relativa: cuando se le da instrucciones (entra a esta carpeta, a este archivo)
+
+html= el tamaño de la letra por defecto es de 16px 
+<style>
+padding 0:quitar espacio (relleno)
+list style type:none quitar viñetas
+font size:tamaño de letra
+font family:tipo de letra
+background color: color
+color:color de letra
+text align: center (centrar texto)
+text decoration: saca subrajado
+</style>
+agregar imagen: img src="img/snow.jpg" alt="bicicletas montañeras">
+*(global):etiqueta que va arropar todo el documento
+
+html trabaja con hiperenlaces (para que aparesca la manito en un ul se utiliza la
+etiqueta a) <a href="#"><li>inicio</li></a>
+
+modelo de caja:
+elementos en bloque y elementos en linea:
